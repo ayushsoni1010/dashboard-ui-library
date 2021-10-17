@@ -1,0 +1,71 @@
+header.header{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    box-sizing: 0px 0px 50px #ccc;
+    > div.logo-header-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        > a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            > button.logo-icon-wrapper{
+                cursor: pointer;
+                background: #E2E2EA;
+                border: none;
+                outline: none;
+                border-radius: 8px;
+                &:focus{
+                    outline:none;
+                }
+            }
+            > p.logo-header-title{
+                font-weight: 600;
+            }
+        }
+    }
+    > div.header-options-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-left: auto;
+        > a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            > button{
+                cursor: pointer;
+                background: none;
+                border: none;
+                outline: none;
+                &:focus{
+                    outline: none;
+                }
+            }
+            > button.btn-avatar-icon{
+                border-radius: 100px;
+                margin-left: 10px;
+                > img{
+                    width: 40px;
+                }
+            }
+            > button.btn-bell-icon{
+                border-radius: 100px;
+                img{
+                    width: 25px;
+                }
+            }
+            > button.btn-option-icon{
+                margin-left: -10px;
+                > img{
+                    width: 40px;
+                }
+            }
+        }
+    }
+}

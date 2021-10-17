@@ -1,1 +1,114 @@
-/* No CSS *//*# sourceMappingURL=style.header.css.map */
+header.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  -webkit-box-sizing: 0px 0px 50px #ccc;
+          box-sizing: 0px 0px 50px #ccc;
+}
+
+header.header > div.logo-header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+header.header > div.logo-header-wrapper > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8px;
+}
+
+header.header > div.logo-header-wrapper > a > button.logo-icon-wrapper {
+  cursor: pointer;
+  background: #E2E2EA;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+header.header > div.logo-header-wrapper > a > button.logo-icon-wrapper:focus {
+  outline: none;
+}
+
+header.header > div.logo-header-wrapper > a > p.logo-header-title {
+  font-weight: 600;
+}
+
+header.header > div.header-options-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin-left: auto;
+}
+
+header.header > div.header-options-wrapper > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+header.header > div.header-options-wrapper > a > button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+header.header > div.header-options-wrapper > a > button:focus {
+  outline: none;
+}
+
+header.header > div.header-options-wrapper > a > button.btn-avatar-icon {
+  border-radius: 100px;
+  margin-left: 10px;
+}
+
+header.header > div.header-options-wrapper > a > button.btn-avatar-icon > img {
+  width: 40px;
+}
+
+header.header > div.header-options-wrapper > a > button.btn-bell-icon {
+  border-radius: 100px;
+}
+
+header.header > div.header-options-wrapper > a > button.btn-bell-icon img {
+  width: 25px;
+}
+
+header.header > div.header-options-wrapper > a > button.btn-option-icon {
+  margin-left: -10px;
+}
+
+header.header > div.header-options-wrapper > a > button.btn-option-icon > img {
+  width: 40px;
+}
+/*# sourceMappingURL=style.header.css.map */
