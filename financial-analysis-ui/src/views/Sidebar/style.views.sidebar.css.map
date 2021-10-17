@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.views.sidebar.scss"
+    ],
+    "names": [],
+    "file": "style.views.sidebar.css"
+}

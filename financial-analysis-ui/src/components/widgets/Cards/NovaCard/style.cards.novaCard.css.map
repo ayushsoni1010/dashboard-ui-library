@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.cards.novaCard.scss"
+    ],
+    "names": [],
+    "file": "style.cards.novaCard.css"
+}

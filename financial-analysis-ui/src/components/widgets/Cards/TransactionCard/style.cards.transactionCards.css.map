@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.cards.transactionCards.scss"
+    ],
+    "names": [],
+    "file": "style.cards.transactionCards.css"
+}

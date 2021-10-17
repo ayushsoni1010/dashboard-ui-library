@@ -1,0 +1,42 @@
+body {
+  background-color: white;
+  background: fixed;
+  background-size: cover;
+}
+
+.center_view {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1536px;
+}
+
+.portrait_view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.landscape_view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=index.css.map */

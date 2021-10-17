@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.views.navbar.scss"
+    ],
+    "names": [],
+    "file": "style.views.navbar.css"
+}
