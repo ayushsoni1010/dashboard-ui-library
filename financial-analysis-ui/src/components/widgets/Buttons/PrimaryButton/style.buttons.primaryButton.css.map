@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.buttons.primaryButton.scss"
+    ],
+    "names": [],
+    "file": "style.buttons.primaryButton.css"
+}
