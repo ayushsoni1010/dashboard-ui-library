@@ -1,0 +1,23 @@
+div.navbar-options-wrapper{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 5%;
+    > a{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        >img.btn-option-icon-operation {
+            margin-top: 1px;
+            margin-left: 30%;
+        }
+        > span.btn-new-message{
+            background-color: #FD4438;
+            font-weight: bold;
+            color: white;
+            border-radius: 2px;
+            padding: 3px 5px 3px 5px;
+            line-height: 20px;
+        }
+    }
+}

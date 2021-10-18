@@ -3,7 +3,7 @@ import './style.header.css';
 import logoIcon from '../../../assets/logoIcon.svg';
 import squareIcon from "../../../assets/squareIcon.svg";
 import optionIcon from "../../../assets/optionIcon.svg";
-import graphIcon from "../../../assets/graphIcon.svg";
+import analyticsIcon from "../../../assets/analyticsIcon.svg";
 import bellIcon from "../../../assets/bellIcon.svg";
 import avatar from "../../../assets/avatar.png";
 
@@ -26,7 +26,7 @@ export default function Header() {
           </a>
           <a href="/">
             <button className="btn-graph-icon">
-              <img src={graphIcon} alt="Graph-Icon" />
+              <img src={analyticsIcon} alt="Analytics-Icon" />
             </button>
           </a>
           <a href="/">

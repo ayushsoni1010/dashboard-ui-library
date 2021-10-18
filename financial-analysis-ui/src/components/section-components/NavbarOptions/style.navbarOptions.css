@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=style.navbarOptions.css.map */
+div.navbar-options-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 5%;
+}
+
+div.navbar-options-wrapper > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.navbar-options-wrapper > a > img.btn-option-icon-operation {
+  margin-top: 1px;
+  margin-left: 30%;
+}
+
+div.navbar-options-wrapper > a > span.btn-new-message {
+  background-color: #FD4438;
+  font-weight: bold;
+  color: white;
+  border-radius: 2px;
+  padding: 3px 5px 3px 5px;
+  line-height: 20px;
+}
+/*# sourceMappingURL=style.navbarOptions.css.map */

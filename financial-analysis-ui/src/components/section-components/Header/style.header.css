@@ -5,12 +5,17 @@ header.header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 15px;
-  -webkit-box-sizing: 0px 0px 50px #ccc;
-          box-sizing: 0px 0px 50px #ccc;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 100px 80px rgba(182, 187, 245, 0.07), 0px 41.7776px 33.4221px rgba(182, 187, 245, 0.0503198), 0px 22.3363px 17.869px rgba(182, 187, 245, 0.0417275), 0px 12.5216px 10.0172px rgba(182, 187, 245, 0.035), 0px 6.6501px 5.32008px rgba(182, 187, 245, 0.0282725), 0px 2.76726px 2.21381px rgba(182, 187, 245, 0.0196802);
+          box-shadow: 0px 100px 80px rgba(182, 187, 245, 0.07), 0px 41.7776px 33.4221px rgba(182, 187, 245, 0.0503198), 0px 22.3363px 17.869px rgba(182, 187, 245, 0.0417275), 0px 12.5216px 10.0172px rgba(182, 187, 245, 0.035), 0px 6.6501px 5.32008px rgba(182, 187, 245, 0.0282725), 0px 2.76726px 2.21381px rgba(182, 187, 245, 0.0196802);
+  margin-right: auto;
+  margin-left: auto;
+  height: 68px;
+  width: auto;
 }
 
 header.header > div.logo-header-wrapper {
+  padding: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -50,6 +55,7 @@ header.header > div.logo-header-wrapper > a > button.logo-icon-wrapper:focus {
 
 header.header > div.logo-header-wrapper > a > p.logo-header-title {
   font-weight: 600;
+  color: black;
 }
 
 header.header > div.header-options-wrapper {
@@ -67,9 +73,6 @@ header.header > div.header-options-wrapper > a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -106,6 +109,7 @@ header.header > div.header-options-wrapper > a > button.btn-bell-icon img {
 
 header.header > div.header-options-wrapper > a > button.btn-option-icon {
   margin-left: -10px;
+  margin-right: 20px;
 }
 
 header.header > div.header-options-wrapper > a > button.btn-option-icon > img {
