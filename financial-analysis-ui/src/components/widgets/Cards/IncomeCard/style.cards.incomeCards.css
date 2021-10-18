@@ -1,1 +1,105 @@
-/* No CSS *//*# sourceMappingURL=style.cards.incomeCards.css.map */
+div.income-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 8px;
+  padding: 15px 12px;
+  background: #F2F3F7;
+  border-radius: 12px;
+  width: 220px;
+  position: relative;
+  margin: 20px;
+}
+
+div.income-card-wrapper > button.card-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 100px 80px rgba(5, 37, 135, 0.06), 0px 41.7776px 33.4221px rgba(5, 37, 135, 0.0431313), 0px 22.3363px 17.869px rgba(5, 37, 135, 0.0357664), 0px 12.5216px 10.0172px rgba(5, 37, 135, 0.03), 0px 6.6501px 5.32008px rgba(5, 37, 135, 0.0242336), 0px 2.76726px 2.21381px rgba(5, 37, 135, 0.0168687);
+          box-shadow: 0px 100px 80px rgba(5, 37, 135, 0.06), 0px 41.7776px 33.4221px rgba(5, 37, 135, 0.0431313), 0px 22.3363px 17.869px rgba(5, 37, 135, 0.0357664), 0px 12.5216px 10.0172px rgba(5, 37, 135, 0.03), 0px 6.6501px 5.32008px rgba(5, 37, 135, 0.0242336), 0px 2.76726px 2.21381px rgba(5, 37, 135, 0.0168687);
+  border-radius: 14px;
+  width: 44px;
+  height: 44px;
+  border: none;
+  cursor: pointer;
+}
+
+div.income-card-wrapper > button.card-icon > i {
+  font-size: 25px;
+}
+
+div.income-card-wrapper > button.card-icon > i.orange {
+  color: #FE7E07;
+}
+
+div.income-card-wrapper > button.card-icon > i.green {
+  color: #24CA49;
+}
+
+div.income-card-wrapper > button.card-icon > i.blue {
+  color: #0062FF;
+}
+
+div.income-card-wrapper > button.card-icon > i.red {
+  color: red;
+}
+
+div.income-card-wrapper > div.card-title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3px;
+  font-family: 'Inter', sans-serif;
+}
+
+div.income-card-wrapper > div.card-title-wrapper > p.cards-stats {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2E2E3A;
+}
+
+div.income-card-wrapper > div.card-title-wrapper > p.cards-title {
+  color: #656575;
+  font-size: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.7613px;
+  line-height: 15px;
+}
+
+div.income-card-wrapper > button.three-dots-icon {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+div.income-card-wrapper > button.three-dots-icon > i {
+  color: #70707C;
+  font-size: 25px;
+}
+/*# sourceMappingURL=style.cards.incomeCards.css.map */

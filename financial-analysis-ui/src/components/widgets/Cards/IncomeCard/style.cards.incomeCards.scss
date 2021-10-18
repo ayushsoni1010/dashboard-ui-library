@@ -1,0 +1,90 @@
+div.income-card-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    padding: 15px 12px;
+    background: #F2F3F7;
+    border-radius: 12px;
+    width: 220px;
+    position: relative;
+    margin: 20px;
+
+    >button.card-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 100px 80px rgba(5, 37, 135, 0.06),
+            0px 41.7776px 33.4221px rgba(5, 37, 135, 0.0431313),
+            0px 22.3363px 17.869px rgba(5, 37, 135, 0.0357664),
+            0px 12.5216px 10.0172px rgba(5, 37, 135, 0.03),
+            0px 6.6501px 5.32008px rgba(5, 37, 135, 0.0242336),
+            0px 2.76726px 2.21381px rgba(5, 37, 135, 0.0168687);
+        border-radius: 14px;
+        width: 44px;
+        height: 44px;
+        border: none;
+        cursor: pointer;
+
+        >i {
+            font-size: 25px;
+
+            &.orange {
+                color: #FE7E07;
+            }
+
+            &.green {
+                color: #24CA49;
+            }
+
+            &.blue {
+                color: #0062FF;
+            }
+
+            &.red {
+                color: red;
+            }
+        }
+    }
+
+    >div.card-title-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        font-family: 'Inter', sans-serif;
+
+        >p.cards-stats {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #2E2E3A;
+        }
+
+        >p.cards-title {
+            color: #656575;
+            font-size: 12px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12.7613px;
+            line-height: 15px;
+        }
+    }
+
+    >button.three-dots-icon {
+        position: absolute;
+        right: 15px;
+        top: 8px;
+        border: none;
+        background: none;
+        cursor: pointer;
+
+        >i {
+            color: #70707C;
+            font-size: 25px;
+        }
+    }
+}
