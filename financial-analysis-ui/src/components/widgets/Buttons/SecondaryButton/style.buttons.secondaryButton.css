@@ -1,4 +1,4 @@
-button.secondary-button-properties {
+button.secondary-button-only-value-properties {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,7 +6,7 @@ button.secondary-button-properties {
       align-content: center;
   background: blue;
   border: none;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 500;
   border-radius: 6px;
@@ -15,11 +15,21 @@ button.secondary-button-properties {
   cursor: pointer;
 }
 
-button.secondary-button-properties:focus {
+button.secondary-button-only-value-properties:focus {
   outline: none;
 }
 
-button.secondary-button-icon-properties {
+button.secondary-button-only-image-icon-properties {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+button.secondary-button-only-image-icon-properties:focus {
+  outline: none;
+}
+
+button.secondary-button-only-start-icon-properties {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,7 +38,7 @@ button.secondary-button-icon-properties {
   gap: 15px;
   padding: 10px;
   border: none;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: black;
@@ -36,17 +46,44 @@ button.secondary-button-icon-properties {
   background: none;
 }
 
-button.secondary-button-icon-properties:focus {
+button.secondary-button-only-start-icon-properties:focus {
   outline: none;
 }
 
-button.secondary-button-icon-properties > i {
+button.secondary-button-only-start-icon-properties > i {
   font-size: 25px;
   color: var(--primary-icon);
   margin-top: -1px;
 }
 
-button.secondary-button-image-icon-properties {
+button.secondary-button-start-icon-value-properties {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 15px;
+  padding: 10px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+  background: none;
+}
+
+button.secondary-button-start-icon-value-properties:focus {
+  outline: none;
+}
+
+button.secondary-button-start-icon-value-properties > i {
+  font-size: 25px;
+  color: var(--primary-icon);
+  margin-top: -1px;
+}
+
+button.secondary-button-image-icon-value-properties {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,7 +95,7 @@ button.secondary-button-image-icon-properties {
   margin: 15px;
   padding-left: 30px;
   border: none;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: black;
@@ -67,11 +104,11 @@ button.secondary-button-image-icon-properties {
   position: relative;
 }
 
-button.secondary-button-image-icon-properties:focus {
+button.secondary-button-image-icon-value-properties:focus {
   outline: none;
 }
 
-button.secondary-button-image-icon-properties > img {
+button.secondary-button-image-icon-value-properties > img {
   position: absolute;
   left: -10px;
   color: var(--primary-icon);
