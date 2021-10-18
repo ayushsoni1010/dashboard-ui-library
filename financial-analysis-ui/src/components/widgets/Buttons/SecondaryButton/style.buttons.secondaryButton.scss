@@ -1,0 +1,63 @@
+button.secondary-button-properties{
+    display: flex;
+    align-content: center;
+    background: blue;
+    border: none;
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    &:focus{
+        outline: none;
+    }
+}
+
+button.secondary-button-icon-properties{
+    display: flex;
+    align-content: center;
+    gap: 15px;
+    padding: 10px;
+    border: none;
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    background: none;
+    &:focus{
+        outline: none;
+    }
+    > i{
+        font-size: 25px;
+        color: var(--primary-icon);
+        margin-top: -1px;
+    }
+}
+
+
+button.secondary-button-image-icon-properties{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 15px;
+    padding-left: 30px;
+    border: none;
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    background: none;
+    position: relative;
+    &:focus{
+        outline: none;
+    }
+    > img{
+        position: absolute;
+        left: -10px;
+        color: var(--primary-icon);
+    }
+}
