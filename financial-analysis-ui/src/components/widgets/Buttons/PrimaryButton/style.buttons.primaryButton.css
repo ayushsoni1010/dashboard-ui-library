@@ -1,1 +1,100 @@
-/* No CSS *//*# sourceMappingURL=style.buttons.primaryButton.css.map */
+div.primary-button-properties-only-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+div.primary-button-properties-only-value > button {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+div.primary-button-properties-only-value > span {
+  margin-left: 10%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+div.primary-button-properties-start-icon-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+div.primary-button-properties-start-icon-value > button {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.primary-button-properties-start-icon-value > button > i {
+  color: white;
+}
+
+div.primary-button-properties-start-icon-value > button.btn-bg-blue {
+  background: #4807EA;
+  -webkit-box-shadow: 0px 100px 85px rgba(7, 87, 243, 0.14), 0px 41.7776px 35.511px rgba(7, 87, 243, 0.10064), 0px 22.3363px 18.9859px rgba(7, 87, 243, 0.083455), 0px 12.5216px 10.6433px rgba(7, 87, 243, 0.07), 0px 6.6501px 5.65259px rgba(7, 87, 243, 0.056545), 0px 2.76726px 2.35217px rgba(7, 87, 243, 0.0393604);
+          box-shadow: 0px 100px 85px rgba(7, 87, 243, 0.14), 0px 41.7776px 35.511px rgba(7, 87, 243, 0.10064), 0px 22.3363px 18.9859px rgba(7, 87, 243, 0.083455), 0px 12.5216px 10.6433px rgba(7, 87, 243, 0.07), 0px 6.6501px 5.65259px rgba(7, 87, 243, 0.056545), 0px 2.76726px 2.35217px rgba(7, 87, 243, 0.0393604);
+  border-radius: 8px;
+}
+
+div.primary-button-properties-start-icon-value > button.btn-bg-red {
+  background: #FD4438;
+  -webkit-box-shadow: 0px 100px 80px rgba(248, 11, 11, 0.11), 0px 41.7776px 33.4221px rgba(248, 11, 11, 0.079074), 0px 22.3363px 17.869px rgba(248, 11, 11, 0.0655718), 0px 12.5216px 10.0172px rgba(248, 11, 11, 0.055), 0px 6.6501px 5.32008px rgba(248, 11, 11, 0.0444282), 0px 2.76726px 2.21381px rgba(248, 11, 11, 0.030926);
+          box-shadow: 0px 100px 80px rgba(248, 11, 11, 0.11), 0px 41.7776px 33.4221px rgba(248, 11, 11, 0.079074), 0px 22.3363px 17.869px rgba(248, 11, 11, 0.0655718), 0px 12.5216px 10.0172px rgba(248, 11, 11, 0.055), 0px 6.6501px 5.32008px rgba(248, 11, 11, 0.0444282), 0px 2.76726px 2.21381px rgba(248, 11, 11, 0.030926);
+  border-radius: 8px;
+}
+
+div.primary-button-properties-start-icon-value > button.btn-bg-green {
+  background: #24CA49;
+  -webkit-box-shadow: 0px 100px 80px rgba(7, 186, 98, 0.17), 0px 41.7776px 33.4221px rgba(7, 186, 98, 0.122205), 0px 22.3363px 17.869px rgba(7, 186, 98, 0.101338), 0px 12.5216px 10.0172px rgba(7, 186, 98, 0.085), 0px 6.6501px 5.32008px rgba(7, 186, 98, 0.0686618), 0px 2.76726px 2.21381px rgba(7, 186, 98, 0.0477948);
+          box-shadow: 0px 100px 80px rgba(7, 186, 98, 0.17), 0px 41.7776px 33.4221px rgba(7, 186, 98, 0.122205), 0px 22.3363px 17.869px rgba(7, 186, 98, 0.101338), 0px 12.5216px 10.0172px rgba(7, 186, 98, 0.085), 0px 6.6501px 5.32008px rgba(7, 186, 98, 0.0686618), 0px 2.76726px 2.21381px rgba(7, 186, 98, 0.0477948);
+  border-radius: 8px;
+}
+
+div.primary-button-properties-start-icon-value > button.btn-bg-light-blue {
+  background: #0062FF;
+  -webkit-box-shadow: 0px 100px 85px rgba(7, 87, 243, 0.14), 0px 41.7776px 35.511px rgba(7, 87, 243, 0.10064), 0px 22.3363px 18.9859px rgba(7, 87, 243, 0.083455), 0px 12.5216px 10.6433px rgba(7, 87, 243, 0.07), 0px 6.6501px 5.65259px rgba(7, 87, 243, 0.056545), 0px 2.76726px 2.35217px rgba(7, 87, 243, 0.0393604);
+          box-shadow: 0px 100px 85px rgba(7, 87, 243, 0.14), 0px 41.7776px 35.511px rgba(7, 87, 243, 0.10064), 0px 22.3363px 18.9859px rgba(7, 87, 243, 0.083455), 0px 12.5216px 10.6433px rgba(7, 87, 243, 0.07), 0px 6.6501px 5.65259px rgba(7, 87, 243, 0.056545), 0px 2.76726px 2.35217px rgba(7, 87, 243, 0.0393604);
+  border-radius: 8px;
+}
+
+div.primary-button-properties-start-icon-value > button.btn-bg-orange {
+  background: #FF7A2F;
+  -webkit-box-shadow: 0px 100px 80px rgba(248, 11, 11, 0.11), 0px 41.7776px 33.4221px rgba(248, 11, 11, 0.079074), 0px 22.3363px 17.869px rgba(248, 11, 11, 0.0655718), 0px 12.5216px 10.0172px rgba(248, 11, 11, 0.055), 0px 6.6501px 5.32008px rgba(248, 11, 11, 0.0444282), 0px 2.76726px 2.21381px rgba(248, 11, 11, 0.030926);
+          box-shadow: 0px 100px 80px rgba(248, 11, 11, 0.11), 0px 41.7776px 33.4221px rgba(248, 11, 11, 0.079074), 0px 22.3363px 17.869px rgba(248, 11, 11, 0.0655718), 0px 12.5216px 10.0172px rgba(248, 11, 11, 0.055), 0px 6.6501px 5.32008px rgba(248, 11, 11, 0.0444282), 0px 2.76726px 2.21381px rgba(248, 11, 11, 0.030926);
+  border-radius: 8px;
+}
+
+div.primary-button-properties-start-icon-value > p {
+  font-family: 'Inter';
+}
+
+div.primary-button-properties-start-icon-value > span {
+  position: absolute;
+  left: 220px;
+  font-size: 18px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.buttons.primaryButton.css.map */
