@@ -1,1 +1,158 @@
-/* No CSS *//*# sourceMappingURL=style.cards.transactionCards.css.map */
+div.transaction-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 25px;
+  gap: 12px;
+  position: relative;
+}
+
+div.transaction-card-wrapper > div.transaction-card-button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+div.transaction-card-wrapper > div.transaction-card-button-wrapper > button.transaction-card-btn-properties {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 100px 80px rgba(5, 37, 135, 0.06), 0px 41.7776px 33.4221px rgba(5, 37, 135, 0.0431313), 0px 22.3363px 17.869px rgba(5, 37, 135, 0.0357664), 0px 12.5216px 10.0172px rgba(5, 37, 135, 0.03), 0px 6.6501px 5.32008px rgba(5, 37, 135, 0.0242336), 0px 2.76726px 2.21381px rgba(5, 37, 135, 0.0168687);
+          box-shadow: 0px 100px 80px rgba(5, 37, 135, 0.06), 0px 41.7776px 33.4221px rgba(5, 37, 135, 0.0431313), 0px 22.3363px 17.869px rgba(5, 37, 135, 0.0357664), 0px 12.5216px 10.0172px rgba(5, 37, 135, 0.03), 0px 6.6501px 5.32008px rgba(5, 37, 135, 0.0242336), 0px 2.76726px 2.21381px rgba(5, 37, 135, 0.0168687);
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  width: 46px;
+  height: 46px;
+}
+
+div.transaction-card-wrapper > div.transaction-card-button-wrapper > button.transaction-card-btn-properties > i {
+  font-size: 25px;
+}
+
+div.transaction-card-wrapper > div.transaction-card-button-wrapper > button.transaction-card-btn-properties > i.blue {
+  color: #0062FF;
+}
+
+div.transaction-card-wrapper > div.transaction-card-button-wrapper > button.transaction-card-btn-properties > i.purple {
+  color: #A162F7;
+}
+
+div.transaction-card-wrapper > div.transaction-card-button-wrapper > button.transaction-card-btn-properties > i.red {
+  color: #FD4438;
+}
+
+div.transaction-card-wrapper > div.transaction-card-button-wrapper > button.transaction-card-btn-properties > i.green {
+  color: #24CA49;
+}
+
+div.transaction-card-wrapper > div.transaction-card-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+div.transaction-card-wrapper > div.transaction-card-content-wrapper > div.transaction-card-title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 4px;
+}
+
+div.transaction-card-wrapper > div.transaction-card-content-wrapper > div.transaction-card-title-container > p.transaction-cards-title {
+  font-size: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #2E2E3A;
+}
+
+div.transaction-card-wrapper > div.transaction-card-content-wrapper > div.transaction-card-title-container > p.transaction-cards-date-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7E7E8F;
+}
+
+div.transaction-card-wrapper > div.transaction-card-content-wrapper > div.transaction-card-title-history {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 4px;
+  position: absolute;
+  left: 250px;
+}
+
+div.transaction-card-wrapper > div.transaction-card-content-wrapper > div.transaction-card-title-history > p.cards-number {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #535362;
+}
+
+div.transaction-card-wrapper > div.transaction-card-content-wrapper > div.transaction-card-title-history > p.cards-credit-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #535362;
+}
+
+div.transaction-card-wrapper > div.transaction-card-content-wrapper > div.transaction-card-stats-wrapper {
+  position: absolute;
+  left: 400px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
+  color: #2E2E3A;
+}
+/*# sourceMappingURL=style.cards.transactionCards.css.map */
