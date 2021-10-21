@@ -15,7 +15,6 @@ div.income-card-wrapper {
   border-radius: 12px;
   width: 220px;
   position: relative;
-  margin: 20px;
 }
 
 div.income-card-wrapper > button.card-icon {
