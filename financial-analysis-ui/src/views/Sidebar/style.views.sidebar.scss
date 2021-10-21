@@ -1,0 +1,67 @@
+div.sidebar-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    background: #F2F3F7;
+    width: 40%;
+    z-index: -1;
+    >div.special-offers-section-wrapper{
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        >div.special-offers-content-wrapper{
+            display: flex;
+            flex-direction: row;
+            gap: 18em;
+            
+            >p.special-offers-title{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 34px;
+                color: #2E2E3A;
+            }
+            >p.speical-offers-see-all{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 16px;
+                display: flex;
+                align-items: center;
+                letter-spacing: -0.009em;
+                color: #A9A9B7;
+            }
+        }
+        >div.special-offers-card-wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+    }
+    >div.last-transaction-section-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-left: 45px;
+        margin-bottom: 100px;
+        >div.last-transaction-description-wrapper{
+            display: flex;
+            >p.last-transaction-title{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 34px;
+                color: #2E2E3A;
+            }
+        }
+        >div.last-transaction-card-wrapper{
+            display: flex;
+            flex-direction: column;  
+        }
+    }
+}
