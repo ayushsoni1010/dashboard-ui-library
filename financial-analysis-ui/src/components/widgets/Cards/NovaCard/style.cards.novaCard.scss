@@ -1,0 +1,150 @@
+div.nova-credit-card-section-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: -gradient(84.38% 94.89% at 22.7% 12.44%, #EB0000 0%, #95008A 53.8%, #3300FC 89.03%);
+
+    background: linear-gradient(90deg, rgba(235, 0, 0, 1), rgb(183, 29, 255), rgba(51, 0, 252, 1));
+    border-radius: 20px;
+    width: 428px;
+    height: 252px;
+    border: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    position: relative;
+
+    >div.nova-card-content-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        >p.nova-card-title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+        }
+
+        >p.nova-card-stats {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 39px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+        }
+
+        >div.nova-credit-limit-card-wrapper {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 13px;
+            background: #150206;
+            box-shadow: 0px 18.9245px 64.566px rgba(0, 0, 0, 0.17),
+                0px 7.90622px 26.9741px rgba(0, 0, 0, 0.122205),
+                0px 4.22704px 14.4217px rgba(0, 0, 0, 0.101338),
+                0px 2.36964px 8.08467px rgba(0, 0, 0, 0.085),
+                0px 1.2585px 4.29371px rgba(0, 0, 0, 0.0686618),
+                0px 0.52369px 1.78671px rgba(0, 0, 0, 0.0477948);
+            border-radius: 12px;
+            position: relative;
+            height: 68px;
+            width: 176px;
+            margin-top: 20px;
+
+            >div.stats-wrapper-credit-limit-card {
+                display: flex;
+
+                >img {
+                    margin-left: 22px;
+                }
+
+                >p.credit-limit-card-stats-description {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 10px;
+                    line-height: 16px;
+                    display: flex;
+                    align-items: center;
+                    color: #F4F5FA;
+                    position: absolute;
+                    left: 35px;
+                    top: 26px;
+                }
+            }
+
+            >div.credit-limit-card-content-wrapper {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+                align-items: center;
+
+                >p.credit-limit-card-title {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    display: flex;
+                    align-items: center;
+                    color: #F5F5FF;
+                }
+
+                >p.credit-limit-card-price-description {
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    color: #F5F5FF;
+                    margin-left: -14px;
+                }
+            }
+        }
+
+        >div.nova-card-visa-wrapper {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            margin-top: 20px;
+
+            >button.nova-card-visa-icon {
+                cursor: pointer;
+                border: none;
+                background: none;
+
+                >i {
+                    font-size: 40px;
+                    color: #fff;
+                }
+            }
+
+            >p.nova-card-visa-description {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    >img {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        width: 70px;
+    }
+}
