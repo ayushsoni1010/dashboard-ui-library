@@ -12,8 +12,9 @@ header.header{
     margin-left: auto;
     height: 68px;
     width: auto;
+    z-index: 100;
     > div.logo-header-wrapper{
-        padding: 20px;
+        margin-left: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
