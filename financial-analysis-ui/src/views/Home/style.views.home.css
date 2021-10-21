@@ -1,1 +1,228 @@
-/* No CSS *//*# sourceMappingURL=style.views.home.css.map */
+div.home-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.home-section-wrapper > div.credit-card-details-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+div.home-section-wrapper > div.credit-card-details-wrapper > div.credit-card-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 15px;
+}
+
+div.home-section-wrapper > div.credit-card-details-wrapper > div.credit-card-description > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.009em;
+  color: #2E2E3A;
+}
+
+div.home-section-wrapper > div.credit-card-details-wrapper > p.credit-card-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2E2E3A;
+}
+
+div.home-section-wrapper > div.credit-card-details-wrapper div.credit-card-container {
+  margin-top: 20px;
+}
+
+div.home-section-wrapper > div.primary-pay-top-up-buttons-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 40px;
+  margin-top: 35px;
+}
+
+div.home-section-wrapper > div.credit-limit-history-payment-description-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 15px;
+  margin-top: 40px;
+  width: 350px;
+  position: relative;
+}
+
+div.home-section-wrapper > div.credit-limit-history-payment-description-wrapper > p.credit-limit-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -0.009em;
+  color: #2E2E3A;
+}
+
+div.home-section-wrapper > div.credit-limit-history-payment-description-wrapper div.credit-limit-stats-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+div.home-section-wrapper > div.credit-limit-history-payment-description-wrapper div.credit-limit-stats-wrapper > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  color: #2E2E3A;
+}
+
+div.home-section-wrapper > div.credit-limit-history-payment-description-wrapper div.credit-limit-stats-wrapper p.right-stats {
+  position: absolute;
+  right: 0px;
+}
+
+div.home-section-wrapper > div.credit-limit-history-payment-description-wrapper div.credit-limit-stats-wrapper p.credit-limit-range {
+  width: 350px;
+  height: 8px;
+  background: #F2F3F7;
+  border-radius: 2px;
+}
+
+div.home-section-wrapper > div.credit-limit-history-payment-description-wrapper div.credit-limit-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+div.home-section-wrapper > div.credit-limit-history-payment-description-wrapper div.credit-limit-content-wrapper > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #535362;
+}
+
+div.home-section-wrapper > div.credit-limit-history-payment-description-wrapper div.credit-limit-content-wrapper > p > span {
+  position: absolute;
+  right: 1px;
+}
+
+div.home-section-wrapper > div.credit-limit-history-payment-description-wrapper div.credit-limit-content-wrapper > p.credit-limit-range {
+  width: 350px;
+  height: 8px;
+  background: #F2F3F7;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+div.home-section-wrapper > div.credit-limit-history-payment-description-wrapper div.credit-limit-content-wrapper > p.credit-limit-range span {
+  position: absolute;
+  width: 161px;
+  height: 12px;
+  left: 0px;
+  background: #24CA49;
+  -webkit-box-shadow: 0px 4px 10px rgba(40, 188, 0, 0.34);
+          box-shadow: 0px 4px 10px rgba(40, 188, 0, 0.34);
+  border-radius: 2px;
+}
+
+div.home-section-wrapper > div.income-expense-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 40px;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+div.home-section-wrapper > div.income-expense-card-wrapper > div.top-payment-history-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+div.home-section-wrapper > div.income-expense-card-wrapper > div.bottom-payment-history-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+/*# sourceMappingURL=style.views.home.css.map */
