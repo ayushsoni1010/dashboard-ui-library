@@ -1,1 +1,127 @@
-/* No CSS *//*# sourceMappingURL=style.cards.offerCards.css.map */
+div.offer-card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 16px 0px 16px 20px;
+  width: 526px;
+  height: 71px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 8px 10px rgba(155, 155, 155, 0.06);
+          box-shadow: 0px 8px 10px rgba(155, 155, 155, 0.06);
+  border-radius: 8px;
+  position: relative;
+  gap: 5px;
+}
+
+div.offer-card-wrapper > div.offer-card-upper-section-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+div.offer-card-wrapper > div.offer-card-upper-section-wrapper > button.offer-card-icon {
+  background: none;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
+
+div.offer-card-wrapper > div.offer-card-upper-section-wrapper > button.offer-card-icon > i {
+  font-size: 15px;
+}
+
+div.offer-card-wrapper > div.offer-card-upper-section-wrapper > button.offer-card-icon > i.green {
+  color: #24CA49;
+  fill: #24CA49;
+}
+
+div.offer-card-wrapper > div.offer-card-upper-section-wrapper > button.offer-card-icon > i.blue {
+  color: #0062FF;
+  fill: #0062FF;
+}
+
+div.offer-card-wrapper > div.offer-card-upper-section-wrapper > button.offer-card-icon > i.orange {
+  color: #FE7E07;
+  fill: #FE7E07;
+}
+
+div.offer-card-wrapper > div.offer-card-upper-section-wrapper > p.offer-card-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #9A9AAF;
+}
+
+div.offer-card-wrapper > div.offer-card-upper-section-wrapper > p.offer-card-dot-contain {
+  color: #D0D0DA;
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+div.offer-card-wrapper > div.offer-card-upper-section-wrapper > p.offer-card-date-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #8A8A98;
+}
+
+div.offer-card-wrapper > div.offer-card-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+div.offer-card-wrapper > div.offer-card-content-wrapper > p.offer-card-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: -0.009em;
+  color: #2E2E3A;
+}
+
+div.offer-card-wrapper > div.offer-card-content-wrapper > button.offer-card-end-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 23px;
+}
+
+div.offer-card-wrapper > div.offer-card-content-wrapper > button.offer-card-end-icon > i {
+  font-size: 25px;
+  color: #70707C;
+}
+/*# sourceMappingURL=style.cards.offerCards.css.map */

@@ -1,0 +1,103 @@
+div.offer-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0px 16px 20px;
+    width: 526px;
+    height: 71px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px rgba(155, 155, 155, 0.06);
+    border-radius: 8px;
+    position: relative;
+    gap: 5px;
+
+    >div.offer-card-upper-section-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        >button.offer-card-icon {
+            background: none;
+            border: none;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+
+            >i {
+                font-size: 15px;
+
+                &.green {
+                    color: #24CA49;
+                    fill: #24CA49;
+                }
+
+                &.blue {
+                    color: #0062FF;
+                    fill: #0062FF;
+                }
+
+                &.orange {
+                    color: #FE7E07;
+                    fill: #FE7E07;
+                }
+            }
+        }
+
+        >p.offer-card-title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 20px;
+            color: #9A9AAF;
+        }
+
+        >p.offer-card-dot-contain {
+            color: #D0D0DA;
+            font-size: 10px;
+            margin-top: 3px;
+        }
+
+        >p.offer-card-date-description {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 20px;
+            color: #8A8A98;
+        }
+
+    }
+
+    >div.offer-card-content-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        >p.offer-card-description {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            letter-spacing: -0.009em;
+            color: #2E2E3A;
+        }
+
+        >button.offer-card-end-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: none;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            top: 23px;
+
+            >i {
+                font-size: 25px;
+                color: #70707C;
+            }
+        }
+    }
+}
