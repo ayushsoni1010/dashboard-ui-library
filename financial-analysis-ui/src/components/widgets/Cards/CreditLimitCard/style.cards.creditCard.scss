@@ -1,0 +1,10 @@
+div.nova-credit-limit-card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > div.credit-limit-card-stats-wrapper{
+        display: flex;
+        justify-content: center;
+        background-color: red;
+    }
+}
