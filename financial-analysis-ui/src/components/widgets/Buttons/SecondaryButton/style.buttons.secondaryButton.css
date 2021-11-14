@@ -7,7 +7,7 @@ button.secondary-button-only-value-properties {
   background: blue;
   border: none;
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   border-radius: 6px;
   padding: 10px;
@@ -39,7 +39,7 @@ button.secondary-button-only-start-icon-properties {
   padding: 10px;
   border: none;
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: black;
   cursor: pointer;
@@ -66,7 +66,7 @@ button.secondary-button-start-icon-value-properties {
   padding: 10px;
   border: none;
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: black;
   cursor: pointer;
@@ -96,7 +96,7 @@ button.secondary-button-image-icon-value-properties {
   padding-left: 30px;
   border: none;
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: black;
   cursor: pointer;
