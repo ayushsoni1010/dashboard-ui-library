@@ -7,10 +7,8 @@ export default function Navbar() {
   return (
     <div className="navbar-section-wrapper">
       <div className="navbar-search-wrapper">
-        <label htmlFor="search" className="search-input-wrapper">
           <i className="fas fa-search"></i>
           <input type="text" placeholder="Search" className="search-input" />
-        </label>
       </div>
       <div className="navbar-options-wrapper">
         <NavbarOptions />

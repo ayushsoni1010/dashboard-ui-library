@@ -7,7 +7,9 @@ div.navbar-options-wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 5%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 div.navbar-options-wrapper > a {
@@ -18,19 +20,22 @@ div.navbar-options-wrapper > a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
+  margin-top: -8px;
 }
 
 div.navbar-options-wrapper > a > img.btn-option-icon-operation {
   margin-top: 1px;
-  margin-left: 30%;
+  margin-left: 15%;
 }
 
 div.navbar-options-wrapper > a > span.btn-new-message {
   background-color: #FD4438;
   font-weight: bold;
+  font-size: 13px;
   color: white;
   border-radius: 2px;
-  padding: 3.5px 5px 3px 5.5px;
+  padding: 2px 4px 2px 4px;
   line-height: 20px;
   text-shadow: 0px 1px 0px rgba(54, 0, 0, 0.25);
 }

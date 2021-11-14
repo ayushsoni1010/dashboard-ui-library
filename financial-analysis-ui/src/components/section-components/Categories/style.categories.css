@@ -6,6 +6,6 @@ div.categories-options-wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 16px;
+  gap: 12px;
 }
 /*# sourceMappingURL=style.categories.css.map */
