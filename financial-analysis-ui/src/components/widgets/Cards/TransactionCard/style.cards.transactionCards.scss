@@ -52,7 +52,8 @@ div.transaction-card-wrapper {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+        
 
         >div.transaction-card-title-container {
             display: flex;
@@ -103,7 +104,7 @@ div.transaction-card-wrapper {
 
         >div.transaction-card-stats-wrapper {
             position: absolute;
-            right: 10px;
+            right: 20px;
             font-family: 'Inter';
             font-style: normal;
             font-weight: bold;
