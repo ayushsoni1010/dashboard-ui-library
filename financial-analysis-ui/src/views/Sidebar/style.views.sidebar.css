@@ -7,12 +7,14 @@ div.sidebar-section-wrapper {
       -ms-flex-direction: column;
           flex-direction: column;
   background: #F2F3F7;
-  width: 40%;
-  z-index: -1;
+  width: 30%;
+  position: absolute;
+  right: 0;
+  height: 100vh;
 }
 
 div.sidebar-section-wrapper > div.special-offers-section-wrapper {
-  margin-top: 35px;
+  margin-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,7 +28,7 @@ div.sidebar-section-wrapper > div.special-offers-section-wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 24px;
+  gap: 10px;
 }
 
 div.sidebar-section-wrapper > div.special-offers-section-wrapper > div.special-offers-content-wrapper {
@@ -37,15 +39,14 @@ div.sidebar-section-wrapper > div.special-offers-section-wrapper > div.special-o
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: 18em;
+  gap: 15em;
 }
 
 div.sidebar-section-wrapper > div.special-offers-section-wrapper > div.special-offers-content-wrapper > p.special-offers-title {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 20px;
   color: #2E2E3A;
 }
 
@@ -53,8 +54,7 @@ div.sidebar-section-wrapper > div.special-offers-section-wrapper > div.special-o
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,6 +63,8 @@ div.sidebar-section-wrapper > div.special-offers-section-wrapper > div.special-o
           align-items: center;
   letter-spacing: -0.009em;
   color: #A9A9B7;
+  position: relative;
+  top: 5px;
 }
 
 div.sidebar-section-wrapper > div.special-offers-section-wrapper > div.special-offers-card-wrapper {
@@ -73,7 +75,7 @@ div.sidebar-section-wrapper > div.special-offers-section-wrapper > div.special-o
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 12px;
+  gap: 8px;
 }
 
 div.sidebar-section-wrapper > div.last-transaction-section-wrapper {
@@ -84,9 +86,11 @@ div.sidebar-section-wrapper > div.last-transaction-section-wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 60px;
-  margin-left: 45px;
-  margin-bottom: 100px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 18px;
+  margin-top: 15px;
 }
 
 div.sidebar-section-wrapper > div.last-transaction-section-wrapper > div.last-transaction-description-wrapper {
@@ -99,8 +103,7 @@ div.sidebar-section-wrapper > div.last-transaction-section-wrapper > div.last-tr
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 20px;
   color: #2E2E3A;
 }
 
