@@ -86,9 +86,6 @@ div.sidebar-section-wrapper > div.last-transaction-section-wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   margin-left: 18px;
   margin-top: 15px;
 }
@@ -100,6 +97,7 @@ div.sidebar-section-wrapper > div.last-transaction-section-wrapper > div.last-tr
 }
 
 div.sidebar-section-wrapper > div.last-transaction-section-wrapper > div.last-transaction-description-wrapper > p.last-transaction-title {
+  margin-top: 5px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;

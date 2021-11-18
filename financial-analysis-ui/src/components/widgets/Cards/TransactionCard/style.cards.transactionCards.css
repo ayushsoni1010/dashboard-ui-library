@@ -72,9 +72,9 @@ div.transaction-card-wrapper > div.transaction-card-content-wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 div.transaction-card-wrapper > div.transaction-card-content-wrapper > div.transaction-card-title-container {
@@ -136,7 +136,7 @@ div.transaction-card-wrapper > div.transaction-card-content-wrapper > div.transa
 
 div.transaction-card-wrapper > div.transaction-card-content-wrapper > div.transaction-card-stats-wrapper {
   position: absolute;
-  right: 10px;
+  right: 20px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: bold;
