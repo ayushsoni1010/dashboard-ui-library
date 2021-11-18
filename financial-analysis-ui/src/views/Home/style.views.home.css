@@ -9,6 +9,7 @@ div.home-section-wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: -30%;
 }
 
 div.home-section-wrapper > div.credit-card-details-wrapper {

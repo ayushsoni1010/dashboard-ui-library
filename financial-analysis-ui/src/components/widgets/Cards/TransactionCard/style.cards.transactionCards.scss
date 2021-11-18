@@ -2,8 +2,8 @@ div.transaction-card-wrapper {
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-top: 25px;
-    gap: 12px;
+    margin-top: 12px;
+    gap: 10px;
     position: relative;
 
     >div.transaction-card-button-wrapper {
@@ -23,8 +23,8 @@ div.transaction-card-wrapper {
             border-radius: 14px;
             border: none;
             cursor: pointer;
-            width: 46px;
-            height: 46px;
+            width: 45px;
+            height: 45px;
 
             >i {
                 font-size: 25px;
@@ -57,15 +57,14 @@ div.transaction-card-wrapper {
         >div.transaction-card-title-container {
             display: flex;
             flex-direction: column;
-            gap: 4px;
+            gap: 2px;
 
             >p.transaction-cards-title {
                 font-size: 16px;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 16px;
-                line-height: 16px;
+                font-size: 15px;
                 color: #2E2E3A;
             }
 
@@ -73,8 +72,7 @@ div.transaction-card-wrapper {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: normal;
-                font-size: 14px;
-                line-height: 16px;
+                font-size: 13px;
                 color: #7E7E8F;
             }
         }
@@ -82,16 +80,15 @@ div.transaction-card-wrapper {
         >div.transaction-card-title-history {
             display: flex;
             flex-direction: column;
-            gap: 4px;
+            gap: 2px;
             position: absolute;
-            left: 250px;
+            left: 200px;
 
             >p.cards-number {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: normal;
                 font-size: 12px;
-                line-height: 16px;
                 color: #535362;
             }
 
@@ -100,19 +97,17 @@ div.transaction-card-wrapper {
                 font-style: normal;
                 font-weight: normal;
                 font-size: 12px;
-                line-height: 16px;
                 color: #535362;
             }
         }
 
         >div.transaction-card-stats-wrapper {
             position: absolute;
-            left: 400px;
+            right: 10px;
             font-family: 'Inter';
             font-style: normal;
             font-weight: bold;
-            font-size: 18px;
-            line-height: 22px;
+            font-size: 15px;
             display: flex;
             align-items: center;
             text-align: right;

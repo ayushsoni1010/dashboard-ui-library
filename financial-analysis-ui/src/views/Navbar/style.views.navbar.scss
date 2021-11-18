@@ -9,7 +9,9 @@ div.navbar-section-wrapper {
         0px 12.5216px 10.0172px rgba(174, 174, 190, 0.035),
         0px 6.6501px 5.32008px rgba(174, 174, 190, 0.0282725),
         0px 2.76726px 2.21381px rgba(174, 174, 190, 0.0196802);
-    position: relative;
+    position: absolute;
+    left: 0;
+    height: 100vh;
 
     >div.navbar-search-wrapper {
         margin-top: 15px;

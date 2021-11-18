@@ -9,10 +9,9 @@ import Sidebar from "./views/Sidebar";
 function App() {
   return (
     <div className="center_view">
-      <Header style={{ position: 'absolute'}}/>
-
-      <div className="center_view landscape_view" style={{ position: 'relative'}}>
-        <Navbar />
+      <Header/>
+      <div className="center_view landscape_view">
+        <Navbar/>
         <div className="marginal_center_view">
           <Home />
         </div>

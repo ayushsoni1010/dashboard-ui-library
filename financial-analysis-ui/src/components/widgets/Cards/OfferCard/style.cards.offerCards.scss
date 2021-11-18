@@ -2,14 +2,14 @@ div.offer-card-wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 16px 0px 16px 20px;
-    width: 526px;
-    height: 71px;
+    padding: 10px 15px;
+    width: 430px;
+    height: 61px;
     background: #FFFFFF;
     box-shadow: 0px 8px 10px rgba(155, 155, 155, 0.06);
     border-radius: 8px;
     position: relative;
-    gap: 5px;
+    gap: 2px;
 
     >div.offer-card-upper-section-wrapper {
         display: flex;
@@ -91,11 +91,11 @@ div.offer-card-wrapper {
             border: none;
             cursor: pointer;
             position: absolute;
-            right: 10px;
-            top: 23px;
+            right: 5px;
+            top: 13px;
 
             >i {
-                font-size: 25px;
+                font-size: 22px;
                 color: #70707C;
             }
         }
