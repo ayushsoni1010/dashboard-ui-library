@@ -23,7 +23,8 @@ div.home-section-wrapper > div.credit-card-details-wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 10px;
+  gap: 5px;
+  margin-top: -20px;
 }
 
 div.home-section-wrapper > div.credit-card-details-wrapper > div.credit-card-description {
@@ -44,8 +45,7 @@ div.home-section-wrapper > div.credit-card-details-wrapper > div.credit-card-des
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 13px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,8 +60,7 @@ div.home-section-wrapper > div.credit-card-details-wrapper > p.credit-card-title
   font-family: 'Inter';
   font-style: normal;
   font-weight: bold;
-  font-size: 56px;
-  line-height: 68px;
+  font-size: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,7 +71,7 @@ div.home-section-wrapper > div.credit-card-details-wrapper > p.credit-card-title
 }
 
 div.home-section-wrapper > div.credit-card-details-wrapper div.credit-card-container {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 div.home-section-wrapper > div.primary-pay-top-up-buttons-wrapper {
