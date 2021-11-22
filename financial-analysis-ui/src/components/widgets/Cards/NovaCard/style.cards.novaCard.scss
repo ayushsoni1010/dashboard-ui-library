@@ -6,8 +6,8 @@ div.nova-credit-card-section-wrapper {
 
     background: linear-gradient(90deg, rgba(235, 0, 0, 1), rgb(183, 29, 255), rgba(51, 0, 252, 1));
     border-radius: 20px;
-    width: 428px;
-    height: 252px;
+    width: 390px;
+    height: 230px;
     border: none;
     padding-top: 20px;
     padding-left: 30px;
@@ -17,13 +17,13 @@ div.nova-credit-card-section-wrapper {
     >div.nova-card-content-wrapper {
         display: flex;
         flex-direction: column;
+        margin-top: 10px;
 
         >p.nova-card-title {
             font-family: 'Inter';
             font-style: normal;
             font-weight: bold;
-            font-size: 18px;
-            line-height: 22px;
+            font-size: 16px;
             display: flex;
             align-items: center;
             color: #FFFFFF;
@@ -33,7 +33,7 @@ div.nova-credit-card-section-wrapper {
             font-family: 'Inter';
             font-style: normal;
             font-weight: 800;
-            font-size: 32px;
+            font-size: 28px;
             line-height: 39px;
             display: flex;
             align-items: center;
@@ -56,7 +56,7 @@ div.nova-credit-card-section-wrapper {
             position: relative;
             height: 68px;
             width: 176px;
-            margin-top: 20px;
+            margin-top: 10px;
 
             >div.stats-wrapper-credit-limit-card {
                 display: flex;
@@ -70,13 +70,12 @@ div.nova-credit-card-section-wrapper {
                     font-style: normal;
                     font-weight: normal;
                     font-size: 10px;
-                    line-height: 16px;
                     display: flex;
                     align-items: center;
                     color: #F4F5FA;
                     position: absolute;
                     left: 35px;
-                    top: 26px;
+                    top: 27.5px;
                 }
             }
 
@@ -91,7 +90,6 @@ div.nova-credit-card-section-wrapper {
                     font-style: normal;
                     font-weight: normal;
                     font-size: 14px;
-                    line-height: 16px;
                     display: flex;
                     align-items: center;
                     color: #F5F5FF;
@@ -102,7 +100,6 @@ div.nova-credit-card-section-wrapper {
                     font-style: normal;
                     font-weight: 600;
                     font-size: 16px;
-                    line-height: 20px;
                     display: flex;
                     align-items: center;
                     color: #F5F5FF;
@@ -115,7 +112,7 @@ div.nova-credit-card-section-wrapper {
             display: flex;
             gap: 30px;
             align-items: center;
-            margin-top: 20px;
+            margin-top: 15px;
 
             >button.nova-card-visa-icon {
                 cursor: pointer;
@@ -145,6 +142,6 @@ div.nova-credit-card-section-wrapper {
         position: absolute;
         top: 15px;
         right: 30px;
-        width: 70px;
+        width: 65px;
     }
 }
