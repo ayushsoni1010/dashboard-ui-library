@@ -8,7 +8,8 @@ div.home-section-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
+        margin-top: -20px;
 
         >div.credit-card-description {
             display: flex;
@@ -20,8 +21,7 @@ div.home-section-wrapper {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 16px;
-                line-height: 16px;
+                font-size: 13px;
                 display: flex;
                 align-items: center;
                 letter-spacing: -0.009em;
@@ -33,15 +33,14 @@ div.home-section-wrapper {
             font-family: 'Inter';
             font-style: normal;
             font-weight: bold;
-            font-size: 56px;
-            line-height: 68px;
+            font-size: 30px;
             display: flex;
             align-items: center;
             color: #2E2E3A;
         }
 
         div.credit-card-container {
-            margin-top: 20px;
+            margin-top: 5px;
         }
     }
 
@@ -49,7 +48,7 @@ div.home-section-wrapper {
         display: flex;
         flex-direction: row;
         gap: 40px;
-        margin-top: 35px;
+        margin-top: 20px;
     }
 
     >div.credit-limit-history-payment-description-wrapper {
@@ -57,8 +56,8 @@ div.home-section-wrapper {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        gap: 15px;
-        margin-top: 40px;
+        gap: 5px;
+        margin-top: 15px;
         width: 350px;
         position: relative;
 
@@ -66,8 +65,7 @@ div.home-section-wrapper {
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
-            font-size: 16px;
-            line-height: 16px;
+            font-size: 15px;
             letter-spacing: -0.009em;
             color: #2E2E3A;
         }
@@ -80,8 +78,7 @@ div.home-section-wrapper {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 700;
-                font-size: 20px;
-                line-height: 18px;
+                font-size: 18px;
                 color: #2E2E3A;
             }
 
@@ -89,26 +86,20 @@ div.home-section-wrapper {
                 position: absolute;
                 right: 0px;
             }
-
-            p.credit-limit-range {
-                width: 350px;
-                height: 8px;
-                background: #F2F3F7;
-                border-radius: 2px;
-            }
         }
 
         div.credit-limit-content-wrapper {
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            gap: 8px;
+            margin-top: -2px;
 
             >p {
+              
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: normal;
                 font-size: 12px;
-                line-height: 16px;
                 color: #535362;
 
                 >span {
@@ -123,6 +114,7 @@ div.home-section-wrapper {
                 background: #F2F3F7;
                 border-radius: 2px;
                 margin-top: 10px;
+                margin-bottom: 5px;
 
                 span {
                     position: absolute;
@@ -140,7 +132,7 @@ div.home-section-wrapper {
     >div.income-expense-card-wrapper{
         display: flex;
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 15px;
         gap: 10px;
         margin-bottom: 50px;
         >div.top-payment-history-cards{

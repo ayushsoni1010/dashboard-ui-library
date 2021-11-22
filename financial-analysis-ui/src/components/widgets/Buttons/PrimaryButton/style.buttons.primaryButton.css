@@ -25,25 +25,24 @@ div.primary-button-wrapper > button.primary-button-icon-wrapper {
       -ms-flex-align: center;
           align-items: center;
   background: #4807EA;
-  width: 56px;
-  height: 56px;
+  width: 45px;
+  height: 45px;
   border-radius: 100%;
   border: none;
   cursor: pointer;
 }
 
 div.primary-button-wrapper > button.primary-button-icon-wrapper > i {
-  font-size: 25px;
+  font-size: 23px;
   color: white;
 }
 
 div.primary-button-wrapper > p.primary-button-title {
-  margin-top: 10px;
+  margin-top: 6px;
   font-family: 'Roboto','Inter';
   font-style: normal;
   font-weight: bold;
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 15px;
   text-align: center;
   letter-spacing: 0.2px;
   color: #2E2E3A;
